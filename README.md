@@ -17,6 +17,7 @@ The portfolio.html page contains five placeholder images that have a border to g
 *CSS
 *Javascript
 
+
 ### Published link:
 https://luckyian.github.io/hw2/index.html
 
