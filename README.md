@@ -1,6 +1,6 @@
 # Portfolio
 
-In this Portfolio project I have attempted to create multiple web pages that link together, and have thier own content independent of the other pages.
+In this Portfolio project I have attempted to create multiple web pages that link together, and have their own content independent of the other pages.
 
 Each page has a navigation bar with links to the accompaning pages.  The navigation bar also has a drop down menu that contains the links when the size of the browser shinks.
 
