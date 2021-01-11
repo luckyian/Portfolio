@@ -1,94 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    
 </head>
-<body style="background-image: url('https://img.wallpapersafari.com/desktop/1440/900/49/4/MXcEOJ.jpg');" >
+<body style=" background-image: url('https://img.wallpapersafari.com/desktop/1440/900/49/4/MXcEOJ.jpg');">
     <nav class="navbar navbar-expand-md navbar-dark bg-dark">
         <div class="col-md-9">
-            <a class="navbar-brand" href="#" style="background-color: rgb(48, 87, 55);" >Ian Wren</a>
-            <button class="navbar-toggler  float-right" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <a class="navbar-brand" href="#" style="background-color: rgb(48, 87, 55);">Ian Wren</a>
+            <button class="navbar-toggler  float-right" type="button" data-toggle="collapse"
+                data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
             </button>
         </div>
         <div class="col-md-3">
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav" >
-            <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
-            <a class="nav-link" href="./contact.html">Contact</a>
-            <a class="nav-link active" href="./portfolio.html">Portfolio</a>
-            <a class="nav-link" href="#" tabindex="3" aria-disabled="true"> </a>
-            </div>
+                <div class="navbar-nav">
+                    <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="./contact.html">Contact</a>
+                    <a class="nav-link active" href="./portfolio.html">Portfolio</a>
+                    <a class="nav-link" href="#" tabindex="3" aria-disabled="true"> </a>
+                </div>
             </div>
         </div>
     </nav>
     <div class="col-md">
-            <div class="p-5">
+        <div class="p-5">
 
-            </div>
-    </div>  
-    
-          <div class="card">
-           <div class="card-body" style="text-decoration-color: whitesmoke;">
-             <h1 style="text-decoration-color: whitesmoke;" class="card-title">Portfolio</h1>
-             <table class="table">
+        </div>
+    </div>
+
+    <div class="card" id="portfolioCard">
+        <div class="card-body" style="text-decoration-color: whitesmoke;">
+            <h1 style="text-decoration-color: whitesmoke;" class="card-title">Portfolio</h1>
+            <table class="table table-striped">
                 <thead>
-                  <tr>
-                    <th scope="col">Project</th>
-                    <th scope="col">Example</th>
-                    <th scope="col">Github Repo</th>
-                  </tr>
+                    <tr>
+                        <th scope="col"  class="sticky-top table-dark">Project</th>
+                        <th scope="col"  class="sticky-top table-dark" id="tabletop">Example</th>
+                        <th scope="col"  class="sticky-top table-dark">Github Repo</th>
+                    </tr>
                 </thead>
                 <tbody>
-                  <tr>
-                    <th scope="row"><a href="https://luckyian.github.io/whats-for-dinner/">What's for dinner? App</a></th>
-                    <td><img src="./Assets/Whatsfordinner.png" class="p-3" alt="Group Project 1" ></td>
-                    <td><a href="https://github.com/luckyian/whats-for-dinner">https://github.com/luckyian/whats-for-dinner</a></td>
-                    
-                  </tr>
-                  <tr>
-                    <th scope="row"><a href="https://luckyian.github.io/Workday_Scheduler/">Workday Scheduler App</a></th>
-                    <td><img src="./Assets/Workday.gif" class="p-3" alt="Workday Scheduler"></td>
-                    <td><a href="https://github.com/luckyian/Workday_Scheduler/">https://github.com/luckyian/Workday_Scheduler/</a></td>
-                    
-                  </tr>
-                  <tr>
-                    <th scope="row"><a href="https://luckyian.github.io/Employee-list/">Employee List App</a></th>
-                    <td><img src="./Assets/team-list.gif" class="p-3" alt="Employee List"></td>
-                    <td><a href="https://github.com/luckyian/Employee-list/">https://github.com/luckyian/Employee-list/</a></td>
-                  </tr>
-                  <tr>
-                    <th scope="row"><a href="https://luckyian.github.io/Quiz/">Javascript Quiz</a></th>
-                    <td><img src="./Assets/Quiz.png" class="p-3" alt="Quiz"></td>
-                    <td><a href="https://github.com/luckyian/Quiz/">https://github.com/luckyian/Quiz/</a></td>
-                  </tr>
-                  <tr>
-                    <th scope="row"><a href="https://luckyian.github.io/Weather-Dashboard/">Weather Dashboard App</a></th>
-                    <td><img src="./Assets/weather-dashboard.gif" class="p-3" alt="Weather-Dashboard"></td>
-                    <td><a href="https://github.com/luckyian/Weather-Dashboard/">https://github.com/luckyian/Weather-Dashboard/</a></td>
-                  </tr>
-                  <tr>
-                    <th scope="row"><a href="https://luckyian.github.io/Readme-generator/">README.md Generator App</a></th>
-                    <td><img src="./Assets/README-generator.png" class="p-3" alt="README-generator"></td>
-                    <td><a href="https://github.com/luckyian/Readme-generator">https://github.com/luckyian/Readme-generator</a></td>
-                  </tr>
+                    <tr>
+                        <th scope="row"><a href="https://luckyian.github.io/whats-for-dinner/">What's for dinner?
+                                App</a></th>
+                        <td><img src="./Assets/Whatsfordinner.png" class="p-3" alt="Group Project 1" id="tabletop"></td>
+                        <td><a
+                                href="https://github.com/luckyian/whats-for-dinner">https://github.com/luckyian/whats-for-dinner</a>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <th scope="row"><a href="https://luckyian.github.io/Workday_Scheduler/">Workday Scheduler
+                                App</a></th>
+                        <td><img src="./Assets/Workday.gif" class="p-3" alt="Workday Scheduler" id="tabletop"></td>
+                        <td><a
+                                href="https://github.com/luckyian/Workday_Scheduler/">https://github.com/luckyian/Workday_Scheduler/</a>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <th scope="row"><a href="https://luckyian.github.io/Employee-list/">Employee List App</a></th>
+                        <td><img src="./Assets/team-list.gif" class="p-3" alt="Employee List" id="tabletop"></td>
+                        <td><a
+                                href="https://github.com/luckyian/Employee-list/">https://github.com/luckyian/Employee-list/</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row"><a href="https://luckyian.github.io/Quiz/">Javascript Quiz</a></th>
+                        <td><img src="./Assets/Quiz.png" class="p-3" alt="Quiz" id="tabletop"></td>
+                        <td><a href="https://github.com/luckyian/Quiz/">https://github.com/luckyian/Quiz/</a></td>
+                    </tr>
+                    <tr>
+                        <th scope="row"><a href="https://luckyian.github.io/Weather-Dashboard/">Weather Dashboard
+                                App</a></th>
+                        <td><img src="./Assets/weather-dashboard.gif" class="p-3" alt="Weather-Dashboard" id="tabletop"></td>
+                        <td><a
+                                href="https://github.com/luckyian/Weather-Dashboard/">https://github.com/luckyian/Weather-Dashboard/</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row"><a href="https://luckyian.github.io/Readme-generator/">README.md Generator
+                                App</a></th>
+                        <td><img src="./Assets/README-generator.png" class="p-3" alt="README-generator" id="tabletop"></td>
+                        <td><a
+                                href="https://github.com/luckyian/Readme-generator">https://github.com/luckyian/Readme-generator</a>
+                        </td>
+                    </tr>
                 </tbody>
-              </table>
-            
-           </div>
-          </div>
-      
+            </table>
+
+        </div>
+    </div>
+
     <div class="col-md-4">
 
-    </div>  
+    </div>
     <footer class="sticky-bottom" style="background-color: midnightblue;">
         &#169; Ian Wren
-    </footer> 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-</body>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    </body>
+
 </html>
